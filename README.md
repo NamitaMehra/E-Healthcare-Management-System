@@ -5,4 +5,3 @@ In this there are 3 users, Admin, Patient(Students and Employees), Doctor.
 The patients can choose online as well as offline mode for consulting the doctors. 
 Appointments for Laboratory tests can also be booked using the website.
 
-# Home Page
