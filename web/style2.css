@@ -1,0 +1,95 @@
+body{
+	background-image: url(https://www.teahub.io/photos/full/68-681017_wallpaper-doctor-patient-tonometer-pressure-measurement-hd-background.jpg);
+	background-size: cover;
+	font-family: "Arial Black";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.menu{
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+        box-shadow: 7px 7px 60px #000;
+	height: 100px;
+	width: 100%;
+}
+.left-menu{
+	line-height: 80px;
+	width: 50%;
+}
+.left-menu h1{
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    
+}
+.right-menu{
+	text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+        box-shadow: 7px 7px 60px #000;
+        margin-top: 20px;
+        height: 100px;
+        width: 100%;
+}
+.right-menu ul{
+	list-style: none;
+        padding: 30px;
+        display: inline-flex;
+        color: #fff;
+}
+.right-menu ul li{
+	font-size: 20px;
+        width: 190px;
+        margin: 1px;
+        padding: 10px;
+        font-weight: bold;
+        height: 55px;
+}
+.right-menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.right-menu ul li:hover{
+        background: orange;
+}
+.sub-menu-1{
+        display: none;
+}
+.sub-sub-menu-1{
+        display: none;
+}
+.right-menu ul li:hover .sub-menu-1{
+        position: absolute;
+        display: block;
+        margin-top: 10px;
+        margin-left: -50px;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));	
+}
+.right-menu ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 5px;
+}
+.right-menu ul li:hover .sub-menu-1 ul li{
+        width: 200px;
+        padding: 3px;
+	background: transparent;
+        text-align: center;
+        margin-left: -10px;
+}
+.right-menu ul li:hover .sub-menu-1 ul li a:hover{
+       color: orange;
+}
+.fa-angle-right{
+        float: right;
+}
+.sub-menu-1 ul li:hover .sub-sub-menu-1
+  {
+      position : absolute;
+      display : block;
+      margin-top : -45px;
+      margin-left : 143px;
+      background-color: rgba(0,0,0,0.7);
+  }

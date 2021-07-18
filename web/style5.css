@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Arial Black";
+    position: relative;
+    
+    background: url("https://www.wallpaperup.com/uploads/wallpapers/2016/02/25/898969/032b2bb877f9f640f999d507e5e4568d-700.jpg");
+    background-size: cover;
+    background-position: center;
+     
+}
+.menu{
+   
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0,0,0,.7);
+}
+.menu .lm img{
+    
+    border-radius: 50%;
+    width: 9%;
+    opacity: 0.8;
+    
+    left: 0;
+    float: left;
+    position: absolute;
+    
+}
+.leftmenu{
+    width: 30%;
+    font-size:55px;
+    float: left;
+    font-weight: bold;
+    color: orange;
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+.rightmenu{
+    width: 55%;
+    height: 10px;
+    float: right;
+    
+}
+.rightmenu ul{
+    margin-left: 250px;
+}
+.rightmenu ul li{
+    font-family: 'Montserrat',sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.rightmenu .rm a{
+    text-decoration: none;
+    color: white;
+}
+.rightmenu .rm a:hover{
+    color: orange;
+}
+.regform{
+    width: 600px;
+    background-color: orange;
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.main{
+    width: 600px;
+    background-color: rgb(0,0,0,.9);
+    margin: auto;
+}
+form{
+    padding: 12px;
+}
+.name{
+    position: relative;
+    width: 480px;
+    font-size: 20px;
+    color: #FFFFFF;
+    left: 20px;
+    padding: 5px 22px;
+    top: 20px;
+    border-radius: 6px;
+}
+.cmn .patid, .docid, .date, .weight, .height, .age, .temp, .bp{
+    position: relative;
+    font-size: 16px;
+    line-height: 4px;
+    border-radius: 6px;
+    padding: 0 22px;
+    color: #000;
+    left: 230px;
+    top: -20px;
+    width: 230px;
+    height: 35px;
+}
+.date{
+    left: 230px;
+    top: -30px;
+    width: 230px;
+    font-size: 10px;
+    font-weight: bold;
+    height: 35px;
+}
+.test{
+    position: relative;
+    font-size: 16px;
+    left: 220px;
+    top: -10px;
+    border-radius: 6px;
+    padding: 0 22px;
+    color: #000;
+}
+.des, .med, .dis{
+    position: relative;
+    font-size: 16px;
+    left: 220px;
+    top: -15px;
+    border-radius: 6px;
+    padding: 0 22px;
+    color: #000;
+    width: 350px;
+}
+#radio{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.radio-one{
+    margin-left: 230px;
+    width: 20px;
+    height: 20px;
+}
+.radio-two{
+    margin-left: 120px;
+    width: 20px;
+    height: 20px;
+    
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    border: 2px solid #15f4ee;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 150px;
+    color: #15f4ee;
+}
+.clear:hover, .add:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+#btn a{
+    background: red;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    opacity: .7;
+    transition: opacity .3s ease;
+}

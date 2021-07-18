@@ -1,0 +1,442 @@
+html,body{
+    background-color: #CCCCFF;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    text-decoration: none !important;
+}
+.logo img{
+    border-radius: 50%;
+    width: 10%;
+    height: 90px;
+    left: 10px;
+    float: left;
+    position: absolute;
+    margin-top: -35px;
+}
+.logo a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #9B59B6;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    opacity: 0.6;
+    line-height: 30px;
+    color: #4A235A ;
+}
+
+.landingText .btn{
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #fff;
+    border-radius: 45px;
+    text-align: center
+}
+
+.landingText .btn a{
+    font-size: 1.5vw;
+    color: red;
+    font-weight: 900;
+}
+
+.landingText .btn a:hover{
+    color: #4A235A;
+}
+.landingImage img{
+    width: 30vw;
+    height: 340px;
+}
+
+
+.aboutS{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #76D7C4;
+}
+
+
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #F4D03F;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1{
+    position: relative;
+    left: 50px;
+    font-size: 50px;
+}
+
+.aboutText img{
+    width: 200px;
+    position: relative;
+    margin-left: 0px;
+}
+
+.aboutList{
+    width: 50%;
+}
+
+ol{
+    list-style: none;
+    color: black;
+}
+
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p{
+    font-size: 20px;
+    color: #1C2833;
+    padding-left: 60px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.infoSection{
+    height: 600px;
+}
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+    position: relative;
+    height: 380px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+}
+
+.infoCards .one .cardoneImg{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    
+}
+.infoCards .two .cardtwoImg{
+     width: 100%;
+     height: 50%;
+    position: absolute;
+    
+}
+.infoCards .three .cardthreeImg{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    
+}
+
+.cardbgone{
+    height: 150px;
+    background-color: #ffce63;
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: #a1cdff;
+}
+
+.cardContent{
+    margin-top: 25px;
+    padding: 10px 20px;
+    
+}
+
+.cardContent h2{
+    font-weight: 600;
+    color: #4A235A;
+}
+
+.cardContent p{
+    line-height: 25px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+
+.banner{
+    height: 400px;
+    background-color: #ffce63;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner h1{
+    font-size: 55px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bannerText img{
+    width: 150px;
+    height: 100px;
+    margin-left: 190px;
+    margin-top: -15px;
+    padding: 10px;
+}
+.innertext{
+    display: flex;
+    flex-direction: column;
+    
+}
+.innertext p{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+.banner video{
+    margin-top: -10px;
+}
+
+
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footerlinks a{
+    margin: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+}
+.footerlinks a:hover{
+    color: #BB8FCE;
+}
+
+@media only screen and (max-width: 600px){
+
+.nav{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.nav h4{
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.landing{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    font-size: 16px;
+}
+
+.landingText .btn{
+    margin: 0 auto;
+}
+
+.landingText .btn a{
+    font-size: 3vw;
+}
+
+.landingImage img{
+    width: 52vw;
+    margin-bottom: 20px;
+}
+
+
+.about{
+    height: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText{
+    padding: 0 50px;
+    height: 100px;
+}
+
+.aboutText h1{
+    left: 40px;
+    font-size: 5vw;
+}
+
+.aboutText img{
+    width: 16vw;
+    top: 10px;
+    left: -30px;
+}
+
+.aboutList{
+    width: 75%;
+}
+
+ol li{
+    font-size: 26px;
+}
+
+li p{
+    font-size: 14px;
+}
+
+.infoSection{
+    height: auto;
+}
+
+.infoHeader{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.infoCards .card{
+    margin-bottom: 60px;
+}
+
+.banner{
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.banner h1{
+    font-size: 6vw;
+}
+
+
+.bannerText img{
+    width: 20vw;
+}
+
+.bannerImg img{
+    width: 26vw;
+}
+
+.footer{
+    padding-bottom: 40px;
+}
+}

@@ -1,0 +1,530 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+}
+
+.login-wrapper{
+   position: absolute;
+    top: 48%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 400px;
+    padding: 50px 30 px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #000;
+    height: 350px;
+    font-weight: bold;
+}
+
+.form h2{
+    margin-top: 3rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: orange;
+    margin-left: 2rem;
+    font-size: 30px;
+}
+
+.form .input-group{
+    position: relative;
+}
+
+.form .input-group input{
+    width: 90%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+    margin-left: 2rem;
+     margin-right: 2rem;
+}
+
+.form .input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: auto;
+    transition: .6s ease-in-out;
+    margin-left: 2rem;
+   
+}
+
+.form .input-group input:focus + label,.form .input-group input:valid + label{
+    transform: translateY(-18px);
+    color: orange;
+    font-size: .8rem;
+}
+
+.submit-btn{
+    display: block;
+    margin-left: 150px;
+    border: none;
+    outline: none;
+    background: orange;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.bgimage{
+    background-image: url('images/22.1.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80vh;
+}
+
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.leftmenu{
+    width: 30%;
+    font-size:65px;
+    float: left;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.button {
+    margin-left: 400px;
+    margin-top: -60px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu .lm img{
+    border-radius: 50%;
+    width: 10%;
+    opacity: 0.8;
+    height: 15%;
+    left: 0;
+    float: left;
+    position: absolute;
+    margin-top: 10px;
+}
+.rightmenu{
+    width: 55%;
+    height: 10px;
+    float: right;
+    margin-top: 10px;
+}
+.rightmenu ul{
+    margin-left: 100px;
+}
+.rightmenu ul li{
+    font-family: 'Montserrat',sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    
+}
+.rightmenu .rm a{
+    text-decoration: none;
+    color: white;
+}
+.rightmenu .rm a:hover{
+    color: orange;
+}
+.rightmenu ul li:hover{
+    color: orange;
+}
+.team-area1 h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    width:35%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    line-break: 2rem;
+}
+
+.team-area{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.single-team img{
+    margin-top: 2rem;
+    display: flex;
+    width: 250px;
+    height: 300px;
+}
+
+.single-team2 img{
+   margin-top: 2rem;
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+.single-team3 img{
+    margin-top: 2rem;
+    
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+.single-team4 img{
+    margin-top: 2rem;
+  
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+.single-team5 img{
+    margin-top: 2rem;
+  
+    width: 200px;
+    height: 300px;
+    display: flex;
+}
+
+.single-team{
+    transition: .6s ease-out;
+}
+
+.single-team:hover{
+    transform: translateY(15px);
+}
+.single-team:hover:before{
+    opacity: 1;
+}
+
+.single-team:hover .team-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.single-team2{
+    transition: .6s ease-out;
+}
+
+.single-team2:hover{
+    transform: translateY(15px);
+}
+
+.single-team2:hover:before{
+    opacity: 1;
+}
+
+.single-team2:hover .team-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.single-team3{
+    transition: .6s ease-out;
+}
+
+.single-team3:hover{
+    transform: translateY(15px);
+}
+
+.single-team3:hover:before{
+    opacity: 1;
+}
+
+.single-team3:hover .team-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.single-team4{
+    transition: .6s ease-out;
+}
+
+.single-team4:hover{
+    transform: translateY(15px);
+}
+
+.single-team4:hover:before{
+    opacity: 1;
+}
+
+.single-team4:hover .team-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.single-team5{
+    transition: .6s ease-out;
+}
+
+.single-team5:hover{
+    transform: translateY(15px);
+}
+
+.single-team5:hover:before{
+    opacity: 1;
+}
+
+.single-team5:hover .team-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+.para{
+      background-color: deepskyblue;
+}
+.para p{
+    margin-top: 2rem;
+    font-family: 'Montserrat',sans-serif;;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 35px;
+}
+
+.single-team .team-text{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.single-team2 .team-text{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.single-team3 .team-text{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.single-team4 .team-text{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.single-team5 .team-text{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.single-team2:before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    display: block;
+    background: linear-gradient(to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+.single-team3:before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    display: block;
+    background: linear-gradient(to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+.single-team4:before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    display: block;
+    background: linear-gradient(to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+
+.single-team5:before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    display: block;
+    background: linear-gradient(to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+.single-team:before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    display: block;
+    background: linear-gradient(to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+.conc{
+    margin-top: 10px;
+    background-color: aqua;
+    background-color: rgba(0,0,0,0.8);
+}
+.conc h1{
+   
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+.conc p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.srm{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    text-transform: none;
+    left: 600px;
+    top: 68px;
+    width: 155px;
+    cursor: pointer;
+    pointer-events: cursor;
+    border-bottom-color: black;
+}
+
+.rmi:hover .srm{
+    display: block;
+    size: 400px;
+}
+
+.srm:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.about-section{
+    background: url('BVGate1.jpeg') no-repeat left;
+    
+    background-size: 55%;
+    background-color: deepskyblue;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.inneraboutus{
+    width: 55%;
+    float: right;
+    padding: 50px;
+    background-color: deepskyblue;
+}
+
+.inneraboutus h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.text{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.contactus{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-top: 10px;
+}
+
+.contactus h2{
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+}
+.contactus p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: 	rgb(230,230,250);
+    font-weight: bold;
+     text-align: center;
+    font-size: 18px;
+}
